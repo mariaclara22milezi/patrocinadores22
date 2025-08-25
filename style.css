@@ -1,0 +1,76 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+body {
+  font-family: tahoma ;
+  background-color: #e6e6e6;
+  color: #333;  
+  
+}
+/* Seção patrocinadores */
+.patrocinadores {
+  display: flex;
+  justify-content: center;  /* centraliza horizontal */
+  align-items: center;      /* centraliza vertical */
+  background-color: #f1f1f1;
+  height: 100px;            /* define altura do header */
+}
+.patrocinadores h2 {
+  font-size: 28px;
+  text-transform: uppercase;
+  margin: 0; /* remove espaço extra */
+}
+.patrocinadores-container {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center;     /* Centraliza verticalmente */
+  gap: 40px;               /* Espaço maior entre os logos */
+  flex-wrap: wrap;         /* Permite quebrar linha em telas pequenas */
+}
+.patrocinador {
+  background-color: #ff7cab;
+  padding: 25px;          /* Mais espaço interno */
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;           /* Box maior */
+  height: 200px;
+ transition: transform 0.3s;
+}
+.patrocinador img {
+  max-width: 200px;       /* Logos maiores */
+  max-height: 180px;
+
+}
+/* Footer */
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+footer p {
+  color: #7e7e7e;
+  font-size: 14px;
+}
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+  color: #7e7e7e;
+  font-size: 14px;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+
+ 
+
